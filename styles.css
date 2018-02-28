@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 80px auto;
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dashbord {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 100%;
+    min-height: 650px;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 5;
+    opacity: 0;
+}
+
+.line {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+}
